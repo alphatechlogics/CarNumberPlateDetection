@@ -52,10 +52,11 @@ dataset = project.version(3).download("yolov8")
 
 ## 💻 Usage
 
-🔧 Prerequisites  
-🖥️ Python 3.10 or higher  
-📦 pip package manager  
-🌐 Streamlit installed globally or in a virtual environment
+## 🔧 Prerequisites
+
+- 🖥️ **Python 3.10** or higher
+- 📦 pip package manager
+- 🌐 Streamlit installed globally or in a virtual environment
 
 ## 📦 Installation
 
@@ -83,9 +84,7 @@ pip install -r requirements.txt
 ### 🚀 Running the Streamlit App
 
 - 💾 Ensure the Trained Model is Available
-- Place the best.pt model file in the root directory of the project or specify its path in app.py.
-
-### 🚀 Run the Streamlit App
+- Place the `best.pt` model file in the root directory of the project or specify its path in app.py.
 
 ```bash
 streamlit run app.py
@@ -97,6 +96,6 @@ streamlit run app.py
 
 ### 🖼️ Using the App
 
-- Upload an Image: Click on the "📂 Choose an image..." button to upload a JPG, JPEG, or PNG image.
-- 🔍 Detect Number Plate: Click the "🔍 Detect Number Plate" button to perform detection.
-- 📷 View Results: The original image and the detected number plate will be displayed side by side.
+- **Upload an Image:** Click on the "📂 Choose an image..." button to upload a JPG, JPEG, or PNG image.
+- 🔍 **Detect Number Plate:** Click the "🔍 Detect Number Plate" button to perform detection.
+- 📷 **View Results:** The original image and the detected number plate will be displayed side by side.
