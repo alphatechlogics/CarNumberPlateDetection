@@ -53,7 +53,7 @@ dataset = project.version(3).download("yolov8")
 ## 💻 Usage
 
 🔧 Prerequisites  
-🖥️ Python 3.8 or higher  
+🖥️ Python 3.10 or higher  
 📦 pip package manager  
 🌐 Streamlit installed globally or in a virtual environment
 
