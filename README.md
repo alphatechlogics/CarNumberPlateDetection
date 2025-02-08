@@ -63,7 +63,6 @@ dataset = project.version(3).download("yolov8")
 ### 🔗 Clone the Repository
 
 ```bash
-Copy code
 git clone https://github.com/alphatechlogics/CarNumberPlateDetection.git
 cd CarNumberPlateDetection
 ```
